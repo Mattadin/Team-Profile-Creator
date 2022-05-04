@@ -77,7 +77,7 @@ const promptMenu = () => {
             type: 'list',
             name: 'menu',
             message: "Select an option below:",
-            chloices: ['add an engineer', 'add an intern', 'finished! Build site.']
+            choices: ['add an engineer', 'add an intern', 'finished! Build site.']
         }
     ]).then(userChoice => {
         switch (userChoice.menu) {
